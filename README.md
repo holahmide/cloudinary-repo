@@ -1,4 +1,4 @@
-# Simple Cloudinary repo image
+# Simple Cloudinary image repo
 
 This project sets up a simple Vite application.
 
