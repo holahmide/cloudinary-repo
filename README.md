@@ -26,7 +26,8 @@ yarn
 
 ### 2. Add envs
 
-Duplicate the file <code>.env.example</code>, then rename to .env
+Duplicate the file <code>.env.example</code>, then rename to <code>.env</code>
+
 Replace the variables with your details
 
 ### 2. Run the app
