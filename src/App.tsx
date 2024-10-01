@@ -12,7 +12,7 @@ function App() {
 
   const addRepoImages = (newImages: CloudinaryImage[]) => {
     setImages((oldImages) => {
-      const updatedImages = [...oldImages, ...newImages];
+      const updatedImages = [...newImages, ...oldImages];
       updateStorage(updatedImages);
       return updatedImages;
     });

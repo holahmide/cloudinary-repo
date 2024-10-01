@@ -39,8 +39,8 @@ const FormContainer = ({
     const files = e.target.files ? Array.from(e.target.files) : [];
     console.log("files:", files);
     setFormImages((oldImages) => [
-      ...oldImages,
       ...files.map((file) => ({ url: URL.createObjectURL(file), file })),
+      ...oldImages,
     ]);
   };
 
